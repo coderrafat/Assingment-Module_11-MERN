@@ -1,0 +1,97 @@
+/* Part 2: CSS Properties, Selectors, and Rules
+
+ /* Font  */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+h1 {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Container and Table */
+.container {
+    background-color: #C077EA;
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+/* Table Hover Effect */
+tbody tr:hover {
+    background-color: #a1a10e;
+}
+
+/* Specific Element Styling */
+ul li.special-item {
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-left: 10px;
+}
+
+thead {
+    background-color: #999999;
+}
+
+/* Part 3: CSS Variables, Pseudo-classes, and Box Model */
+
+/* CSS Variables */
+:root {
+    --primary-color: #336699;
+    --secondary-color: #FF9900;
+    --font-size: 16px;
+}
+
+/* Link Styling */
+a:link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--secondary-color);
+}
+
+/* Box Model */
+p {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+}
